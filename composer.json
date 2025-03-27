@@ -1,0 +1,21 @@
+{
+    "name": "burxon/letter-exchange",
+    "description": "This package converts cyrillic letters to latin or vice versa",
+    "type": "laravel-package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Burxon\\LetterExchange\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Saidburxon",
+            "email": "19saidburxon96@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4"
+    }
+}
