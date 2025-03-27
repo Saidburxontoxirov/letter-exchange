@@ -20,8 +20,8 @@ class LetterExchangeServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__ . '/../config/letter-exchange.php', 'letter-exchange');
 
         // Register Greeter service
-        $this->app->singleton(Greeter::class, function () {
-            return new Greeter();
+        $this->app->singleton(LetterExchange::class, function () {
+            return new LetterExchange();
         });
     }
 }
